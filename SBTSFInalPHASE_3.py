@@ -1,8 +1,4 @@
-#reg no:24105129038 MOHIT RAJ
-
-
-
-
+# MOHIT RAJ
 import csv
 import os
 from datetime import datetime
@@ -304,11 +300,6 @@ def ViewDashboard(bugs, user):
 
 
 
-
-
-
-
-
 #2.ASSIGN BUG by manager
 def assignBug(bugs, user):
     print("\n--- Assign Bug ---")
@@ -330,8 +321,6 @@ def assignBug(bugs, user):
     if not found_bug:
         print("BUG ID NOT FOUND...This bug id doesnot exist yet.!!!")
         return
-
-
 
 
 
@@ -359,6 +348,7 @@ def generate_report(bugs):
             ])
 
     print(f"Report generated successfully: {reportfile}")
+
 
 
 #4 SEARCH BUG BY MANAGER
@@ -433,8 +423,6 @@ def searchBug(bugs, user):
     else:
         print("Please enter a valid number!!!")
         return
-
-
 
 
 
